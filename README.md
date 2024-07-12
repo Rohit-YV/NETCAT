@@ -3,8 +3,11 @@ ITS a clone tool of Netcat..just made for understanding the concept
 
 USEAGE --->
  python netcat.py -t 192.168.1.203 -p 5555 -l -c
+
+ 
 -------------------------------------------------------------------------
  python netcat.py -t 192.168.1.203 -p 5555
+
 CTRL-D
 <BHP:#> ls -la
 total 23497
@@ -15,10 +18,18 @@ drwxr-xr-x 1 502 dialout 512 Mar 29 11:23 ..
 -rw-r--r-- 1 502 dialout 8795 May 6 10:10 mytest.txt
 -rw-r--r-- 1 502 dialout 4408 May 11 08:55 netcat.py
 <BHP: #> uname -a
+
+
+
+
 ----------------------------------------------------------------------------
  python netcat.py -t 192.168.1.203 -p 5555 -l -e="cat /etc/passwd"
  ---------------------------------------------------------------------------
+
+
+ 
  python netcat.py -t 192.168.1.203 -p 5555
+ 
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
